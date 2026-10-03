@@ -1,0 +1,23 @@
+S2a: Average score by department (lowest first)
+department,avg_score
+Technology,56.0
+Business,67.0
+
+S2b: Underperforming courses (average score below 60)
+course,avg_score
+Python,49.33
+PowerBI,53.33
+
+S2c: Top two batches by average score (ties: alphabetical batch)
+batch,avg_score
+Evening,67.0
+Morning,61.25
+
+S3: Integrity check - LEFT JOIN from courses to assessments
+course_id,course
+(0 rows - no unmatched keys)
+
+S3 (extra): Orphan keys - assessment rows with no lookup match (zero expected)
+assessment_id,course_id
+(0 rows - no unmatched keys)
+
