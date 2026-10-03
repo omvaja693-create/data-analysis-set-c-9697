@@ -8,9 +8,6 @@ Find which departments, courses, batches and months perform best and worst, usin
 ## 📝 Problem Statement
 Assessment records (score and attendance per course, batch and month) and a course lookup table were given as raw CSV files. The raw data contained a duplicate record. The task was to clean it, check data integrity, define a pass rule (**score ≥ 50**), and report performance by department, course, batch and month.
 
-## 🎥 Video Walkthrough
-[Add Google Drive video link here](#)
-
 ## 📁 Repository Structure
 ```
 data-analysis-set-c-9697/
